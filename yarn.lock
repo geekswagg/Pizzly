@@ -30,15 +30,15 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@bearer/node-agent@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.npmjs.org/@bearer/node-agent/-/node-agent-3.2.1.tgz#22403dd47244a9524cc52089a46d6dcb9a1100c7"
-  integrity sha512-nNUkVr+q0D/jbvNmX0kNRznS+3p6R40/i0H2KxvALn1dL5QKiD7wCjHeHMu/jjB8d54NVUfVFz8sMpwApeNJ3w==
+"@bearer/node-agent@^3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@bearer/node-agent/-/node-agent-3.3.3.tgz#cb170caa3230ded3e2d818339d1335c3220454e5"
+  integrity sha512-K5HGCU4+yR7f3+x+5Ve777JTGSP7q/5s+e6CVf72jahYpfE/VfnCUEVl8krMQ1dbnBDweslyU8+TqErGCqZBjA==
   dependencies:
     "@bearer/shape-hash" "^0.0.7"
     debug "^4.1.1"
-    lodash.throttle "^4.1.1"
     semver "^6.3.0"
+    uuid "^8.3.1"
 
 "@bearer/shape-hash@^0.0.7":
   version "0.0.7"
@@ -4372,11 +4372,6 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
-lodash.throttle@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
-  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
-
 lodash@4.17.11:
   version "4.17.11"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
@@ -6954,6 +6949,11 @@ uuid@^7.0.3:
   version "7.0.3"
   resolved "https://registry.npmjs.org/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
   integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
+
+uuid@^8.3.1:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8flags@^3.2.0:
   version "3.2.0"
